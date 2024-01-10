@@ -1,0 +1,63 @@
+.buscar_inputs {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .input_buscar {
+    width: 100%;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 0.3px solid white;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 8px;
+  }
+  .inputs{
+    width: 100%;
+    display: flex;
+  }
+  .button_buscar {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .personaje-buscado p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .personaje-buscado {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+  }
+  
+  .personaje-buscado img {
+    max-width: 100%;
+    height: auto;
+  }
+  .personaje-detalle{
+    margin-left: 2rem;
+  }
+  .filtros{
+    display: flex;
+    gap: 2%;
+    width: 100%;
+    margin-top: 14px;
+  }
+  .options{
+    width: 300px;
+    padding: 1px;
+    background: transparent;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+  }
+  .options:focus option {
+    background-color: transparent;
+    color: black;
+  }

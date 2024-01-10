@@ -1,0 +1,30 @@
+.listaPersonajes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 5%;
+
+}
+.personaje-item {
+    position: relative;
+    margin-bottom: 16px;
+  }
+  .personaje-img{
+    border-radius: 20px;
+    width: 215px 
+
+  }
+  .personaje-nombre {
+    position: absolute;
+    bottom: -17px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 8px;
+    text-align: center;
+    width: 100%;
+
+  }

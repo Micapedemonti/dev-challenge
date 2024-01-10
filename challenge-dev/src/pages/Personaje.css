@@ -1,0 +1,25 @@
+.personaje{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Personaje-content {
+    margin-left: 2rem;
+}
+.Personaje-episode{
+    margin-top: 2rem;
+}
+.title-label {
+    font-family: 'Poppins', sans-serif;
+    font-family: 10px;
+    color: #3498db; 
+    margin-right: 5px; 
+  }
+  
+  .name,
+  .value {
+    color:white; 
+    font-family: 'Poppins', sans-serif;
+  }
